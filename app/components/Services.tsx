@@ -26,6 +26,7 @@ const groups = [
     id: "comercial-industrial",
     title: "Comercial e Industrial",
     desc: "Instalações elétricas para lojas, escritórios, restaurantes e galpões.",
+    video: "/videos/comercial.mp4",
     services: [
       {
         title: "Elétrica em Barracão",
@@ -34,10 +35,10 @@ const groups = [
         alt: "Instalação elétrica em barracão industrial",
       },
       {
-        title: "Instalação de LEDs",
-        desc: "Projetos de iluminação em LED para ambientes comerciais, com acabamento profissional.",
-        image: "/images/servicos/instalacao-leds-comercial.jpeg",
-        alt: "Iluminação em LED instalada em ambiente comercial",
+        title: "Tomadas Industriais",
+        desc: "Instalação de tomadas e plugues industriais para máquinas e equipamentos de força, com proteção e acabamento reforçado.",
+        image: "/images/servicos/tomadas-industriais.jpg",
+        alt: "Tomadas industriais instaladas em ambiente industrial",
       },
     ],
   },
@@ -76,12 +77,19 @@ const groups = [
     id: "climatizacao",
     title: "Climatização",
     desc: "Instalação elétrica dedicada para equipamentos de ar-condicionado.",
+    video: "/videos/ar.mp4",
     services: [
       {
         title: "Ar-Condicionado",
         desc: "Circuito elétrico dedicado para splits, com disjuntor e fiação próprios.",
         image: "/images/servicos/ar-condicionado.png",
         alt: "Instalação elétrica dedicada para ar-condicionado",
+      },
+      {
+        title: "Manutenção e Higienização",
+        desc: "Manutenção preventiva e higienização de aparelhos de ar-condicionado para garantir eficiência e bom funcionamento.",
+        image: "/images/servicos/manutencao-ar.jpg",
+        alt: "Manutenção e higienização de ar-condicionado",
       },
     ],
   },

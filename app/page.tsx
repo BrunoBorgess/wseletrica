@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <CTA />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }

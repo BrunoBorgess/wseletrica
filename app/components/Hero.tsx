@@ -89,7 +89,7 @@ export default function Hero() {
 
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-navy-800 border border-white/10">
           <Image
-            src="/images/hero-eletricista.png"
+            src="/images/hero-eletricista.jpeg"
             alt="Eletricista da WS Elétrica trabalhando em instalação"
             fill
             priority
