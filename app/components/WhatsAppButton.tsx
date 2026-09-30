@@ -1,4 +1,4 @@
-const NUMERO = "5517999999999"; // WhatsApp da WS Elétrica (55 + DDD + número)
+const NUMERO = "5565993502835"; // WhatsApp da WS Elétrica (55 + DDD + número)
 const MENSAGEM = "Olá! Vim pelo site e gostaria de um orçamento.";
 
 export default function WhatsAppButton() {
