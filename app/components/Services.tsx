@@ -5,6 +5,7 @@ const groups = [
     id: "residencial",
     title: "Residencial",
     desc: "Instalações elétricas para casas e apartamentos, com segurança e acabamento.",
+    video: "/videos/residencial.mp4",
     services: [
       {
         title: "Chuveiro Elétrico",
@@ -12,6 +13,13 @@ const groups = [
         image: "/images/servicos/chuveiro-eletrico.jpeg",
         alt: "Instalação de chuveiro elétrico executada pela WS Elétrica",
       },
+      {
+        title: "Iluminação LED e Tomadas",
+        desc: "Instalação de luminárias, fitas e spots de LED, além de tomadas e interruptores, com acabamento limpo e seguro.",
+        image: "/images/servicos/luz.jpg",
+        alt: "Iluminação em LED instalada em residência",
+      },
+
     ],
   },
   {
@@ -72,7 +80,7 @@ const groups = [
       {
         title: "Ar-Condicionado",
         desc: "Circuito elétrico dedicado para splits, com disjuntor e fiação próprios.",
-        image: "/images/servicos/ar-condicionado.jpeg",
+        image: "/images/servicos/ar-condicionado.png",
         alt: "Instalação elétrica dedicada para ar-condicionado",
       },
     ],
@@ -138,6 +146,19 @@ export default function Services() {
                     </div>
                   </div>
                 ))}
+                {group.video && (
+                <div className="relative bg-navy-950 min-h-[240px] sm:col-span-2 lg:col-span-1">
+                  <video
+                    src={group.video}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
+              )}
               </div>
             </div>
           ))}
