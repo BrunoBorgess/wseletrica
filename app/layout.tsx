@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/seo.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "WS Elétrica e Refrigeração - Ar-condicionado, refrigeração e instalações elétricas",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description,
-    images: ["/seo.png"],
+    images: ["/og-image.jpg"],
   },
 };
 
@@ -57,7 +57,7 @@ const jsonLd = {
   "@type": ["Electrician", "HVACBusiness"],
   name: "WS Elétrica e Refrigeração",
   url: SITE_URL,
-  image: `${SITE_URL}/seo.png`,
+  image: `${SITE_URL}/og-image.jpg`,
   telephone: "+5565993502835", // troca pelo telefone real (mesmo do WhatsApp)
   address: {
     "@type": "PostalAddress",
