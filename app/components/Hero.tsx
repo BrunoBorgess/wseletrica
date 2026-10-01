@@ -34,15 +34,15 @@ export default function Hero() {
       <div className="container-content relative grid lg:grid-cols-[1.1fr,0.9fr] gap-12 items-center">
         <div>
           <p className="text-volt-400 text-sm font-semibold tracking-wide mb-4">
-            Instalações elétricas com qualidade e segurança
+            Segurança e qualidade em elétrica e climatização
           </p>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-white leading-[1.1] mb-6">
-            A energia que move o seu dia a dia
+            O que faz o seu espaço funcionar, do jeito certo
           </h1>
           <p className="text-white/60 text-lg max-w-lg mb-8">
-            Serviços elétricos residenciais, comerciais e industriais, com
-            soluções seguras, eficientes e total responsabilidade em cada
-            projeto.
+            Somos especializados em instalações elétricas e climatização para
+            ambientes residenciais, comerciais e industriais, com equipe qualificada,
+            execução criteriosa e atendimento transparente do início ao fim.
           </p>
           <div className="flex flex-wrap items-center gap-6">
             <a
