@@ -15,7 +15,7 @@ export default function Footer() {
             className="h-9 w-auto"
           />
           <span className="text-white/70 text-sm">
-            WS Elétrica — Instalações e Manutenção
+            WS Elétrica e Refrigeração
           </span>
         </div>
 
