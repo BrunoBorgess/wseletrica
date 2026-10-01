@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const links = [
   { label: "Início", href: "#inicio" },
@@ -17,13 +18,19 @@ export default function Header() {
     <header className="fixed top-0 inset-x-0 z-50 bg-navy-950/90 backdrop-blur border-b border-white/5">
       <div className="container-content flex items-center justify-between h-16">
         <a href="#inicio" className="flex items-center gap-2">
-          <span className="grid place-items-center w-9 h-9 rounded-md bg-volt-500 text-navy-950 font-display font-bold">
-            WS
-          </span>
+          <Image
+            src="/images/logo-ws.png"
+            alt="Logo WS Elétrica"
+            width={527}
+            height={512}
+            priority
+            className="h-11 w-auto"
+          />
           <span className="font-display font-semibold text-white tracking-tight">
             WS Elétrica
           </span>
         </a>
+
 
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (

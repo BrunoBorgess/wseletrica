@@ -14,10 +14,36 @@ const body = Inter({
   weight: ["400", "500", "600"],
 });
 
+const title = "WS Elétrica | Instalações e Manutenção Elétrica";
+const description =
+  "A WS Elétrica é especializada em serviços elétricos residenciais, comerciais e industriais, com soluções seguras, eficientes e com total responsabilidade.";
+
 export const metadata: Metadata = {
-  title: "WS Elétrica | Instalações e Manutenção Elétrica",
-  description:
-    "A WS Elétrica é especializada em serviços elétricos residenciais, comerciais e industriais, com soluções seguras, eficientes e com total responsabilidade.",
+  metadataBase: new URL("https://wseletrica.vercel.app"), // troca pelo domínio real do site
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "WS Elétrica",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "/seo.png",
+        width: 1200,
+        height: 630,
+        alt: "WS Elétrica - Instalações e Manutenção Elétrica",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/seo.png"],
+  },
 };
 
 export default function RootLayout({
