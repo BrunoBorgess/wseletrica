@@ -20,7 +20,7 @@ const UF = "MT";
 
 const title = "WS Elétrica e Refrigeração | Ar-Condicionado e Elétrica";
 const description =
-  "Instalação e manutenção de ar-condicionado, refrigeração e serviços elétricos residenciais, comerciais e industriais. Peça seu orçamento com a WS Elétrica.";
+  "Instalação e manutenção de ar-condicionadoe, serviços elétricos residenciais, comerciais e industriais. Peça seu orçamento com a WS Elétrica.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "WS Elétrica e Refrigeração - Ar-condicionado, refrigeração e instalações elétricas",
+        alt: "WS Elétrica e Refrigeração - Ar-condicionado e instalações elétricas",
       },
     ],
   },
